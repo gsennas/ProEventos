@@ -34,9 +34,7 @@ namespace ProEventos.API.Controllers
          [HttpPost]
         public Evento Post(Evento evento)
         {
-            
-
-                return evento;
+            return evento;
         }
 
         [HttpPut]
